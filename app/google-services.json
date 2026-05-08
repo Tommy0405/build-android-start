@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "502429916743",
+    "firebase_url": "https://friendlychat-d6bfe-default-rtdb.firebaseio.com",
+    "project_id": "friendlychat-d6bfe",
+    "storage_bucket": "friendlychat-d6bfe.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502429916743:android:5bd77fb6a858631c22db62",
+        "android_client_info": {
+          "package_name": "com.google.firebase.codelab.friendlychat"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBqSfLzUkcFmG6soq4JSD2sgp60zhEAtCs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
