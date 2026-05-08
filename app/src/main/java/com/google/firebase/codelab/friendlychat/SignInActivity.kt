@@ -53,34 +53,9 @@ class SignInActivity : AppCompatActivity() {
         auth = Firebase.auth
     }
 
-    public override fun onStart() {
+    override fun onStart() {
         super.onStart()
-
-        // If there is no signed in user, launch FirebaseUI
-        // Otherwise head to MainActivity
-        //    if (Firebase.auth.currentUser == null) {
-            // Sign in with FirebaseUI, see docs for more details:
-            // https://firebase.google.com/docs/auth/android/firebaseui
-            // Choose authentication providers
-            //      val providers = listOf(
-            //         AuthUI.IdpConfig.EmailBuilder().build(),
-                //AuthUI.IdpConfig.PhoneBuilder().build(),
-                //         AuthUI.IdpConfig.GoogleBuilder().build(),
-                //AuthUI.IdpConfig.FacebookBuilder().build(),
-                //AuthUI.IdpConfig.TwitterBuilder().build(),
-                //    )
-            //    val signInIntent = AuthUI.getInstance()
-            //        .createSignInIntentBuilder()
-            //        .setAvailableProviders(providers)
-            //        .setLogo(R.mipmap.ic_launcher)
-            //        .setTheme(R.style.AppTheme) // Use the custom theme
-            //        .build()
-
-            //      signInLauncher.launch(signInIntent)
-            //  } else {
-            //     goToMainActivity()
-            // }
-        setTheme(R.style.AppThemeNoActionBar)
+        setTheme(R.style.AppThemeNoActionBar)  // Força este tema
     }
 
     private fun signIn() {
